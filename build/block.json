@@ -1,0 +1,58 @@
+{
+  "apiVersion": 3,
+  "version": "1",
+  "name": "justintadlock/testing",
+  "title": "Testing Allowed Blocks",
+  "category": "widgets",
+  "description": "Only allow Images and Covers",
+  "allowedBlocks": [
+    "core/cover",
+    "core/image"
+  ],
+  "supports": {
+    "anchor": true,
+    "align": true,
+    "html": false,
+    "__experimentalBorder": {
+      "radius": true,
+      "color": true,
+      "width": true,
+      "style": true,
+      "__experimentalDefaultControls": {
+        "width": true,
+        "color": true
+      }
+    },
+    "color": {
+      "link": true,
+      "gradients": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true,
+        "link": true
+      }
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "padding": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    }
+  },
+  "textdomain": "testing-allowed-blocks",
+  "editorScript": "file:./index.js",
+  "example": {}
+}

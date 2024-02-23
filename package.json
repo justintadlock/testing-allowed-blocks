@@ -1,0 +1,10 @@
+{
+	"name": "testing-allowed-blocks",
+	"scripts": {
+		"start": "wp-scripts start",
+		"build": "wp-scripts build"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^27.3.0"
+	}
+}
